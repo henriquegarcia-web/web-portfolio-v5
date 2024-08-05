@@ -1,3 +1,3 @@
-import TemplateScreen from './TemplateScreen'
+import HomeScreen from './HomeScreen'
 
-export { TemplateScreen }
+export { HomeScreen }

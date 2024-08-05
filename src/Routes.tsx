@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
-import { TemplateScreen } from '@/screens'
+import { HomeScreen } from '@/screens'
 
 const AppRoutes = () => {
   return (
@@ -8,12 +8,12 @@ const AppRoutes = () => {
       <Routes>
         {/* =============================================================== */}
 
-        <Route path="/" element={<Navigate to="/template" />} />
-        <Route path="*" element={<Navigate to="/template" />} />
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="*" element={<Navigate to="/home" />} />
 
         {/* =============================================================== */}
 
-        <Route path="/template" element={<TemplateScreen />} />
+        <Route path="/home" element={<HomeScreen />} />
 
         {/* =============================================================== */}
       </Routes>
